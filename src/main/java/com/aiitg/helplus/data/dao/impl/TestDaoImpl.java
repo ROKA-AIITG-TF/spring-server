@@ -11,6 +11,7 @@ public class TestDaoImpl implements TestDao{
 	
 	private final SqlSessionTemplate sqlSession;
 	final String NAME_SPACE = "TestDao."; 
+	
 	@Autowired
 	TestDaoImpl(SqlSessionTemplate sqlSession){
 		this.sqlSession = sqlSession;
