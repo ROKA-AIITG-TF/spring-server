@@ -17,6 +17,7 @@ public class TestDaoImpl implements TestDao{
 		this.sqlSession = sqlSession;
 		
 	}
+	// 23.9.30 
 	public String getTest() {
 		return sqlSession.selectOne(NAME_SPACE + "getTest");
 	}
